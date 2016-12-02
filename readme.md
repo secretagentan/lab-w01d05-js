@@ -1,18 +1,29 @@
-# Todo! 📝
+# 📝 Todo! 
 
+We're going to practice DOM events and rendering to the DOM
+by creating a simple Todo App.
+
+Implement the following tasks: 
+
+# Setup
+- [ ] Fork and clone this repository
 - [ ] Create index.html, main.js and style.css files.
-- [ ] Add an input element with the class "new-todo"
+- [ ] Add your HTML boilerplate and link up your files
+- [ ] Add an input element with the class "new-todo" to the page
+- [ ] Add an empty unordered list with the class 'todos'
+- [ ] Start up a server
 
-When a user enters text into 'input.new-todo' and hits enter
+### When a user enters text into 'input.new-todo' and hits enter
 - [ ] render the text as a new 'li'
 - [ ] the 'li' should contain the value from 'input.new-todo'
 - [ ] the 'li' should have a class of "todo"
 - [ ] the 'li' should contain a 'span' with a class of 'remove' and the text content 'x'
+- [ ] Appdn the 'li' to 'ul.todos'
 
-When a user clicks on a todo's span's "x"
+### When a user clicks on a todo's span's "x"
 - [ ] remove the todo from the DOM
 
-When a user click's on the todo text
+### When a user click's on the todo text
 - [ ] add or remove the class "complete"
 - [ ] "complete" should add a line through the text
 
