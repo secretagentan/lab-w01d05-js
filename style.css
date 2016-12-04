@@ -1,3 +1,32 @@
 body {
-  background: thistle;
+/*  background: mediumaquamarine;
+*/}
+h1 {
+  color: white;
 }
+#container {
+  margin-top: 60px;
+  margin-left: 100px;
+  padding: 40px;
+  width: 80%;
+  background-color: rgba(216, 191, 216, .9);
+  border-radius: 10px;
+}
+button {
+  border-radius: 5px;
+  color: white;
+}
+ul {
+  list-style: none;
+}
+.todo {
+  text-transform: capitalize;
+  padding: 10px;
+}
+.remove {
+  color: white;
+  text-transform: lowercase;
+  padding: 10px;
+  font-weight: bold;
+}
+
