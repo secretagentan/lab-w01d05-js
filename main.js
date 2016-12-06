@@ -43,14 +43,12 @@ var handleAddTodo = function(event) {
     // clears the input box after each entry
     event.target.value = "";
 
-    li.length();
-
-    // var selectLi = document.querySelector(".todo");
     li.addEventListener("click", completeItem);
     li.addEventListener("click", removeItem);
-    li.addEventListener("keypress", addToTotal);
+    input.addEventListener("keyup", addToTotal);
 
   }
+
 };
 
 input.addEventListener("keypress", handleAddTodo);
@@ -89,20 +87,33 @@ var completeItem = function(event) {
 //  - Attach the event listener on the parent node that exists
 
 var removeItem = function(event) {
-  console.log(event, event.target);
+  // console.log(event, event.target);
   if (event.target.classList.contains("remove")) {
         event.target.parentNode.remove();
+        input.focus();
   }
 
 };
 
+// ================================================
+// IV. ADDS TO ITEM COUNTER
+// ================================================
 
-var addToTotal = function(event) {
-alert(li.length);
-};
+// var addToTotal = function(event) {
+//   if (event.keyCode === 13) {
+//     alert(.length);
+//   }
+// };
 
-
-
+// var addToTotal = function(event) {
+//   var liTotal = [];
+//   for (var i = 0; i < ul.childNodes.length; i++){
+//     if (ul.childNodes[i].nodeName === "LI") {
+//       liTotal.push(ul.childNodes[i]);
+//       console.log(liTotal.length);
+//     }
+//   }
+// }
 
 
 
