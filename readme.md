@@ -20,12 +20,18 @@ Implement the following tasks:
 - [x] the 'li' should contain a 'span' with a class of 'remove' and the text content 'x'
 - [x] Append the 'li' to 'ul.todos'
 
-### When a user clicks on a todo's span's "x"
-- [ ] remove the todo from the DOM
-
 ### When a user click's on the todo text
 - [ ] add or remove the class "complete"
 - [ ] "complete" should add a line through the text
+
+### When a user clicks on a todo's span's "x"
+- [ ] remove the todo from the DOM
+
+### When a to-do item is added to the list
+- [ ] adds to item counter on page (# completed / total items)
+
+### When a to-do item is completed
+- [ ] adds to items completed on counter
 
 # Bonus 
 
